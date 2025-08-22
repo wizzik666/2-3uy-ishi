@@ -1,0 +1,106 @@
+.happy-own__title{
+    font-size: 35px;
+    color: rgba(11, 19, 42, 1);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.happy-own__desc{
+    color: rgba(79, 86, 101, 1);
+    text-align: center;
+}
+.happy-menus__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.happy-menus__title--bir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.happy-menus{
+    width: 400px;
+    height: 230px;
+    padding: 30px;
+    border: 3px solid gray ;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.happy-menus:hover{
+    border: none;
+    background-color: rgba(245, 56, 56, 1);
+    color: white;    
+}
+@media (max-width:1150px) {
+    .happy-menyus{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width:1149px) {
+    .happy-menyus{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:950px) {
+    .left-right img{
+        display: none;
+    }
+}
+.happy-menus__title--ikki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.happy-menus__title--ikki img{
+    width: 20px;
+    margin-left: 10px;
+}
+.happy-menus__desc{
+    padding-top: 30px;
+    font-size: 15px;
+}
+.happy-menus-robert{
+    margin-left: 20px;
+}
+.happy-menus-robert h1{
+    font-size: 18px;
+}
+.happy-menyus{
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.left-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.happy-left__right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.happy-left__right img{
+    display: flex;
+    padding: 0px;
+    max-width: 60px;
+        border: 3px solid black;
+            border-radius: 50%;
+            padding: 10px;
+            transition: 0.5s;
+}
+.happy-left__right img:hover{
+    background-color: rgba(245, 56, 56, 1);
+    color: white;
+            border: 3px solid rgba(245, 56, 56, 1);
+}

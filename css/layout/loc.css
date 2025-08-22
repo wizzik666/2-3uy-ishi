@@ -1,0 +1,38 @@
+.loc-menu{
+    display: flex;
+}
+.loc-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 103px;
+}
+.loc-menu__desc{
+    padding-left: 36px;
+}
+.loc-menu__img{
+    width: 55px;
+    height: 55px;
+}
+@media (max-width:1120px) {
+    .loc-menu{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media (max-width:930px) {
+    .loc-navbar{
+        display: inline-block;
+        padding-top: 90px;
+        text-align: center;
+
+    }
+    .loc-vector{
+        display: none;
+    }
+    .loc-menu{
+        padding-top: 30px;
+        text-align: center;
+    }
+}

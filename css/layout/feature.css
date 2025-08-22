@@ -1,0 +1,32 @@
+.hero-feature{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.feature-galocka{
+    display: flex;
+    align-items: center;
+}
+.feature-own__desc{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(79, 86, 101, 1);
+}
+.feature-own__sozlar{
+    padding-left: 170px;
+}
+.feature-galocka{
+    padding-top: 15px;
+}
+.feature-galocka__desc{
+    padding-left: 10px;
+}
+@media (max-width:1100px) {
+    .hero-feature{
+        flex-wrap: wrap;
+    }
+    .feature-own__sozlar{
+        padding-top: 30px;
+    }
+}

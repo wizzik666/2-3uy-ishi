@@ -1,0 +1,34 @@
+.footer-uls{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-own{
+    color: black;
+    font-size: 22px;
+}
+.footer-uls li a{
+    color: rgba(79, 86, 101, 1);
+}
+.footer-uls li{
+    padding-top: 10px;
+}
+.footer-foots{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: rgba(248, 248, 248, 1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.foot-desc{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.foot-brends{
+    display: flex;
+    padding: 0px;
+}
